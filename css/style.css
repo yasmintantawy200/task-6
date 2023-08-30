@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../pictures/1920x1536.jpg);
+    background-repeat: no-repeat;
+   background-size: cover; 
+   background-attachment: fixed;
+}
+
+
+.animation{  
+    position: relative;
+   margin-top: 30px;
+}
+
+.img{
+    width: 120px;
+    height: 110px;
+}
+
+.div1{
+    position: absolute;
+    animation-name: change1 ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    left:0;
+
+}
+
+ @keyframes change1 {
+  
+    100%{
+          left:1300px;
+    }
+} 
+
+.div2{
+    position: absolute;
+    animation-name: change2 ;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    right: 0;
+    top: 110px;
+}
+
+@keyframes change2 {
+
+    100%{
+          right:1300px;
+    }
+} 
+
+
+.div3{
+    position: absolute;
+    animation-name: change3 ;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    left: 0;
+    top: 220px;
+}
+
+
+@keyframes change3 {
+  
+    100%{
+          left:1300px;
+    }
+} 
+
+
+.div4{
+    position: absolute;
+    animation-name: change4 ;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    right: 0;
+    top: 330px;
+}
+
+@keyframes change4 {
+    
+    100%{
+          right:1300px;
+    }
+} 
+
+
+.div5{
+    position: absolute;
+    animation-name: change5 ;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    left: 0;
+    top: 440px;
+}
+
+
+@keyframes change5 {
+    
+    100%{
+          left:1300px;
+    }
+} 
+
+.div6{
+    position: absolute;
+    animation-name: change6 ;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    right: 0;
+    top: 550px;
+}
+
+@keyframes change6 {
+ 
+    100%{
+          right:1300px;
+    }
+} 
